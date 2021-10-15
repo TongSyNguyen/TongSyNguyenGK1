@@ -26,10 +26,10 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
         adt  =new CustomAdapter(mSongs,this);
 
         mSongs.add(new Song("Hero","Enrique Iglesias",R.drawable.singer,R.raw.gia_nhu_ngay_dau));
-        mSongs.add(new Song("Hero","Enrique Iglesias",R.drawable.singer,R.raw.nhac_a));
-        mSongs.add(new Song("Hero","Enrique Iglesias",R.drawable.singer,R.raw.nhac_b));
-        mSongs.add(new Song("Hero","Enrique Iglesias",R.drawable.singer,R.raw.nhac_d));
-        mSongs.add(new Song("Hero","Enrique Iglesias",R.drawable.singer,R.raw.gia_nhu_ngay_dau));
+        mSongs.add(new Song("Hero1","Enrique Iglesias1",R.drawable.singer,R.raw.nhac_a));
+        mSongs.add(new Song("Hero2","Enrique Iglesias2",R.drawable.singer,R.raw.nhac_b));
+        mSongs.add(new Song("Hero3","Enrique Iglesias3",R.drawable.singer,R.raw.nhac_d));
+        mSongs.add(new Song("Hero4","Enrique Iglesias4",R.drawable.singer,R.raw.gia_nhu_ngay_dau));
 
 
         rcv.setHasFixedSize(true);

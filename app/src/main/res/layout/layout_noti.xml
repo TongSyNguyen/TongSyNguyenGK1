@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#1D1D1D">
+
+    <TextView
+        android:id="@+id/tx_tittle"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgSong"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/imgSong"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#F4EFEF"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgSong"
+        android:layout_width="88dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@drawable/singer" />
+
+    <TextView
+        android:id="@+id/tx_singer"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_tittle"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="23dp"
+        android:layout_toEndOf="@+id/imgSong"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#F4EFEF"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tx_tittle"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toEndOf="@+id/tx_tittle"
+        app:srcCompat="@drawable/pause" />
+
+    <ImageView
+        android:id="@+id/imgDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgPlay"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/imgPlay"
+        android:background="#00F0FF"
+        app:srcCompat="@drawable/clear" />
+
+</RelativeLayout>
